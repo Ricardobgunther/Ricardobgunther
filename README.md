@@ -1,56 +1,56 @@
 ## Ricardo Gunther
 
-Estudante de Ciência da Computação na Atitus Educação, focado em desenvolvimento back-end e produtos web. Trabalho com Node.js, TypeScript e PHP, construindo APIs, integrações e aplicações multi-tenant.
+Front-end developer and Computer Science student at Atitus Educação. I build web and mobile products with Next.js, React, TypeScript and Tailwind CSS — and I own the back-end side of what I ship, working with Node.js and PHP.
 
 ---
 
 ### Stack
 
-**Back-end** · Node.js · TypeScript · PHP (Laravel) · Python
+**Front-end** · Next.js · React · TypeScript · Expo · Tailwind CSS
 
-**Front-end** · Next.js · React · Expo · Tailwind CSS
+**Back-end** · Node.js · PHP (Laravel) · Python
 
-**Dados** · PostgreSQL · Supabase · Prisma
+**Data** · PostgreSQL · Supabase · Prisma
 
-**Infra & qualidade** · Docker · Git · GitHub Actions · Jest · Zod · Winston
+**Infra & quality** · Docker · Git · GitHub Actions · Jest · Zod · Winston
 
 ---
 
-### Projetos
+### Projects
 
-#### [Jonara Calderan — Landing Page](https://github.com/Ricardobgunther/jonarapage) *(privado)*
+#### [Jonara Calderan — Landing Page](https://github.com/Ricardobgunther/jonarapage) *(private)*
 
-Site institucional para fotógrafa e publicitária, em Next.js 14 (App Router), TypeScript e Tailwind CSS.
+Marketing site for a photographer and advertiser, built with Next.js 14 (App Router), TypeScript and Tailwind CSS.
 
-- Portfólio alimentado automaticamente pelo Behance via RSS, com cache de 1h e fallback quando a fonte cai
-- Formulário de contato validado ponta a ponta com Zod, persistido no Supabase com RLS, honeypot e rate limiting
-- E-mails transacionais via Resend (notificação e auto-resposta), sem travar a request em caso de falha
-- SEO completo (Open Graph, JSON-LD, sitemap), acessibilidade AAA e Core Web Vitals otimizados
+- Portfolio fed automatically from Behance via RSS, with a 1h cache and a fallback when the source goes down
+- Contact form validated end to end with Zod, persisted to Supabase with RLS, honeypot and rate limiting
+- Transactional emails through Resend (notification and auto-reply), without blocking the request on failure
+- Full SEO (Open Graph, JSON-LD, sitemap), AAA accessibility and optimized Core Web Vitals
 
 #### [meridian](https://github.com/Ricardobgunther/meridian)
 
-Aplicação SaaS multi-tenant em Laravel e TypeScript.
+Multi-tenant SaaS application in Laravel and TypeScript.
 
-- Autenticação, convites por e-mail, gestão de organizações e dashboard
-- Testes automatizados e CI configurados no GitHub Actions
-
----
-
-### Experiência
-
-#### ZapAgenda — SaaS de agendamento por WhatsApp
-
-- Chatbot de atendimento e agendamento integrado à Evolution API
-- Back-end em Node.js e TypeScript, com Prisma sobre PostgreSQL no Supabase
-- Aplicativo mobile em Expo e comunicação em tempo real via WebSockets
-- Notificações push com OneSignal e proteção de acesso com Cloudflare
-- Validação com Zod e Joi, logging estruturado com Winston e testes com Jest
-- Ambientes containerizados com Docker
+- Authentication, email invites, organization management and dashboard
+- Automated tests and CI set up with GitHub Actions
 
 ---
 
-### Contato
+### Experience
 
-**E-mail** · ricardobg2004@gmail.com
+#### ZapAgenda — WhatsApp-based scheduling SaaS
+
+- Support and scheduling chatbot integrated with the Evolution API
+- Mobile app built with Expo, real-time communication over WebSockets
+- Back-end in Node.js and TypeScript, with Prisma on PostgreSQL hosted on Supabase
+- Push notifications with OneSignal and access protection through Cloudflare
+- Validation with Zod and Joi, structured logging with Winston and testing with Jest
+- Containerized environments with Docker
+
+---
+
+### Contact
+
+**Email** · ricardobg2004@gmail.com
 
 **GitHub** · [@Ricardobgunther](https://github.com/Ricardobgunther)
