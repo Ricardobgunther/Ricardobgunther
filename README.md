@@ -1,32 +1,41 @@
 ## Ricardo Gunther
 
-Estudante de Ciência da Computação na Atitus Educação, focado em desenvolvimento back-end e aplicações web. Gosto de trabalhar em projetos que envolvem arquitetura de sistemas, APIs e integração entre serviços.
-
-Atualmente construindo o **Meridian**, uma aplicação SaaS multi-tenant em Laravel e TypeScript.
+Estudante de Ciência da Computação na Atitus Educação, focado em desenvolvimento back-end e produtos web. Trabalho com Node.js, TypeScript e PHP, construindo APIs, integrações e aplicações multi-tenant.
 
 ---
 
 ### Stack
 
-**Back-end** · Java (Spring Boot, microsserviços) · PHP (Laravel) · Python
+**Back-end** · Node.js · TypeScript · PHP (Laravel) · Java (Spring Boot) · Python
 
-**Front-end** · TypeScript · JavaScript · HTML · CSS · Three.js
+**Front-end** · Next.js · React · Expo · Tailwind CSS
 
-**Ferramentas** · Docker · Git · MySQL · CI/CD com GitHub Actions
+**Dados** · PostgreSQL · Supabase · Prisma
+
+**Infra & qualidade** · Docker · Git · GitHub Actions · Jest · Zod · Winston
 
 ---
 
 ### Projetos
 
-| Projeto | Descrição |
-| :-- | :-- |
-| **[meridian](https://github.com/Ricardobgunther/meridian)** | Aplicação SaaS multi-tenant em Laravel + TypeScript: autenticação, convites por e-mail, gestão de organizações e dashboard. |
-| **[microservices--java-atualizado](https://github.com/Ricardobgunther/microservices--java-atualizado)** | Arquitetura de microsserviços em Java, com serviços independentes e comunicação entre eles. |
-| **[API-Gateway](https://github.com/Ricardobgunther/API-Gateway)** | Gateway de API que centraliza o roteamento da arquitetura de microsserviços. |
-| **[Atitussound](https://github.com/Ricardobgunther/Atitussound)** | Aplicação em Java desenvolvida durante a graduação. |
-| **[Spacemarker](https://github.com/Ricardobgunther/Spacemarker)** | Projeto em Python do primeiro semestre. |
-| **[forca](https://github.com/Ricardobgunther/forca)** | Implementação do jogo da forca em Python. |
-| **[Portfolio](https://github.com/Ricardobgunther/Portfolio)** | Portfólio pessoal em HTML e CSS. |
+**[Jonara Calderan — Landing Page](https://github.com/Ricardobgunther/jonarapage)** *(privado)*
+Site institucional para fotógrafa e publicitária. Next.js 14 com App Router, TypeScript e Tailwind. Portfólio alimentado automaticamente pelo Behance via RSS, formulário de contato validado ponta a ponta com Zod e persistido no Supabase com RLS, e-mails transacionais via Resend. Foco em SEO, acessibilidade e Core Web Vitals.
+
+**[meridian](https://github.com/Ricardobgunther/meridian)**
+Aplicação SaaS multi-tenant em Laravel e TypeScript: autenticação, convites por e-mail, gestão de organizações e dashboard. Testes e CI configurados no GitHub Actions.
+
+---
+
+### Experiência
+
+**ZapAgenda** — SaaS de agendamento por WhatsApp
+
+- Chatbot de atendimento e agendamento integrado à Evolution API
+- Back-end em Node.js e TypeScript, com Prisma sobre PostgreSQL no Supabase
+- Aplicativo mobile em Expo e comunicação em tempo real via WebSockets
+- Notificações push com OneSignal e proteção de acesso com Cloudflare
+- Validação de dados com Zod e Joi, logging estruturado com Winston e testes com Jest
+- Ambientes containerizados com Docker
 
 ---
 
