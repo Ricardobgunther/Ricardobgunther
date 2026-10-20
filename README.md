@@ -6,17 +6,38 @@ Front-end developer and Computer Science student at Atitus Educação. I build w
 
 ### Stack
 
-**Front-end** · Next.js · React · TypeScript · Expo · Tailwind CSS
+**Front-end** · Next.js · React · TypeScript · Expo · Tailwind CSS · TanStack Query · Zustand
 
 **Back-end** · Node.js · PHP (Laravel) · Python
 
 **Data** · PostgreSQL · Supabase · Prisma
 
-**Infra & quality** · Docker · Git · GitHub Actions · Jest · Zod · Winston
+**Infra & quality** · Docker · Git · GitHub Actions · Netlify · Jest · Playwright · Zod · Winston
 
 ---
 
 ### Projects
+
+#### [Rancho Feito](https://github.com/Ricardobgunther/ranchofeito) *(private, in development)* · [ranchofeito.com.br](https://ranchofeito.com.br)
+
+Meal-planning startup: customers describe their routine, get a weekly meal plan, and turn it into a shopping list or a ready-made box ordered from a local market. I lead the front-end; the back-end is built by another developer, aligned through a shared API contract.
+
+- Mobile-first web app in Next.js 16 (App Router), React 19, TypeScript (strict) and Tailwind CSS v4 with brand tokens
+- Server state with TanStack Query, local state with Zustand, validation with Zod
+- In-browser mock back-end, switchable per area, so every flow runs end to end before the API ships
+- Three areas: customer (adaptive onboarding with voice answers, weekly plan, recipes, shopping list, boxes and orders), market (orders, substitutions, catalog with CSV import) and admin
+- In-app notifications, installable PWA and LGPD tools (data export and account deletion)
+- End-to-end tests with Playwright and axe accessibility checks; lint, typecheck and build in CI on GitHub Actions
+
+#### [Andressa Dalcin — Nutritionist Landing Page](https://github.com/Ricardobgunther/andressa-dalcin) *(private)*
+
+Conversion-focused, mobile-first landing page for a nutritionist in Passo Fundo, designed to turn visits into WhatsApp bookings.
+
+- Plain static HTML, CSS and JS with no framework, for fast loads on mobile
+- Dependency-free Python build script that generates the SEO head, JSON-LD (MedicalBusiness, Person, FAQPage, VideoObject), sitemap, robots and 404
+- Local SEO: NAP matching the Google Business Profile, Open Graph image and preview mode with `noindex`
+- Optimized media: WebP images, lazy loading, self-hosted fonts and short video previews encoded with ffmpeg
+- Continuous deploy on Netlify, with content kept within the nutrition council's advertising rules
 
 #### [Jonara Calderan — Landing Page](https://github.com/Ricardobgunther/jonarapage) *(private)*
 
